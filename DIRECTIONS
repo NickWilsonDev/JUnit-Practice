@@ -1,0 +1,7 @@
+************* Directions to run classpath to include JUnit jars *************
+
+javac -cp .:junit-4.XX.jar CalculatorTest.java
+
+java -cp .:junit-4.XX.jar:hamcrest-core-1.3.jar org.junit.runner.JUnitCore CalculatorTest
+
+
